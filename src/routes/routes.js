@@ -1,6 +1,8 @@
 import { addnewProduct, 
     getProducts, 
-    getProductWithID 
+    getProductWithID,
+    updateProduct,
+    deleteProduct 
 } from '../controllers/controllers';
 
 const routes = (app) => {
@@ -13,7 +15,11 @@ const routes = (app) => {
 
     app.route('/products/:ProductID')
         //to get specific product with an ID
-        .get(getProductWithID);
+        .get(getProductWithID)
+        //update a specific Product
+        .out(updateProduct)
+        //delete a specific product
+        .delete(deleteProduct);
 }
 
 export default routes;
