@@ -17,7 +17,7 @@ const routes = (app) => {
         //to get specific product with an ID
         .get(getProductWithID)
         //update a specific Product
-        .out(updateProduct)
+        .put(updateProduct)
         //delete a specific product
         .delete(deleteProduct);
 }
