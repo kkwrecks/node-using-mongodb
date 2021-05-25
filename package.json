@@ -14,15 +14,15 @@
   "author": "Emmanuel Henri",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "latest",
     "expect.js": "^0.3.1",
     "express": "^4.17.1",
-    "mocha": "^7.2.0",
-    "mongoose": "^5.12.11",
-    "nodemon": "^2.0.7"
+    "mocha": "latest",
+    "mongoose": "latest",
+    "nodemon": "latest"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "babel-cli": "latest",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1"
   }
